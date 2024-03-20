@@ -4,6 +4,13 @@
 
 body {
   font-family: Truculenta, sans-serif;
+  font-size: 20px;
+  color: blueviolet;
+  font-weight: 400;
+}
+
+.header {
+  text-align: center;
 }
 
 #header-title {
@@ -16,8 +23,11 @@ body {
 }
 
 h2 {
-  color: rgba(255, 98, 0, 0.9);
   font-weight: 700;
+}
+
+.evil {
+  text-decoration: line-through red double;
 }
 
 section.first-section {
@@ -57,10 +67,12 @@ section.first-section {
 
 .economy-title ~ p {
   color: gold;
+  letter-spacing: 5px;
 }
 
 .footer {
   color: blueviolet;
+  word-spacing: 30px;
 }
 
 .footer-text + .marked-text {
@@ -71,27 +83,52 @@ section.first-section {
   color: chartreuse;
 }
 
-.sleep-section {
+.sleep-section,
+.living-room-section {
   font-family: 'Proxima Nova', sans-serif;
-  margin: 30px 0;
+  margin: 40px 0;
   width: 100%;
   max-width: 960px;
   min-height: auto;
+  color: #2b2929;
 }
 
-.sleep-title {
-  color: #2b2929;
+.living-room-section {
+  max-width: 1070px;
+}
+
+.sleep-title,
+.living-room-title {
   font-size: 40px;
   text-align: center;
-  font-weight: 400;
-  line-height: 48px;
+  line-height: 1.2; /* 48/40 */
   margin-bottom: 30px;
 }
 
-.sleep-text {
-  color: #2b2929;
+.sleep-text,
+.living-room-text,
+.living-room-list {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
+  line-height: 1.875; /* 30/16 */
   margin-bottom: 10px;
+}
+
+.living-room-title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.living-room-list-title {
+  margin-bottom: 30px;
+  line-height: 1.4; /* 28/20 */
+}
+
+.living-room-list,
+.living-room-pict,
+.living-room-block {
+  margin-bottom: 40px;
+}
+
+.living-room-item {
+  margin-bottom: 20px;
 }
