@@ -69,13 +69,10 @@ section.first-section {
 
 .sleep-section {
   font-family: 'Proxima Nova', sans-serif;
-  font-style: normal;
   margin: 30px 0;
   width: 100%;
   max-width: 960px;
   min-height: auto;
-  letter-spacing: 0;
-  text-transform: none;
 }
 
 .sleep-title {
