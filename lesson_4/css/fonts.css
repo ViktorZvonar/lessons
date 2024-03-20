@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Jingleberry-4wVp';
+  src: url('../fonts/Jingleberry-4wVp.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MintsodaLimeGreen13X16Regular-4n30l';
+  src: url('../fonts/MintsodaLimeGreen13X16Regular-4n30l.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Regular.woff2') format('woff2');
+  src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

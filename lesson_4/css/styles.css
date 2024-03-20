@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Truculenta:100,200,300,regular,500,600,700,800,900);
+@import url('fonts.css');
+@import url('reset.css');
+
+body {
+  font-family: Truculenta, sans-serif;
+}
+
+#header-title {
+  color: blue;
+  font-family: 'Jingleberry-4wVp';
+}
+
+[class='header-text'] {
+  color: rgba(137, 43, 226, 0.744);
+}
+
+h2 {
+  color: rgba(255, 98, 0, 0.9);
+  font-weight: 700;
+}
+
+section.first-section {
+  color: firebrick;
+  font-family: 'MintsodaLimeGreen13X16Regular-4n30l';
+  font-weight: 300;
+}
+
+.page-section.second-section {
+  color: rgba(0, 0, 0, 0.853);
+}
+
+.third-section h2 {
+  color: rgb(139, 0, 86);
+}
+
+.fourth-section .section-title {
+  color: greenyellow;
+}
+
+.fourth-section > p {
+  color: rgba(234, 255, 47, 0.908);
+}
+
+.fifth-section h2,
+.sixth-section h2 {
+  color: deeppink;
+}
+
+.history-title + p {
+  color: orange;
+}
+
+.economy-title ~ p {
+  color: gold;
+}
+
+.footer {
+  color: blueviolet;
+}
+
+.footer-text + .marked-text {
+  color: aquamarine;
+}
+
+.footer-text ~ a {
+  color: chartreuse;
+}
+
+.sleep-section {
+  font-family: 'Proxima Nova', sans-serif;
+  font-style: normal;
+  margin: 30px 0;
+  width: 100%;
+  max-width: 960px;
+  min-height: auto;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.sleep-title {
+  color: #2b2929;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+
+.sleep-text {
+  color: #2b2929;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
