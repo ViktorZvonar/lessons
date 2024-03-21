@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Truculenta:100,200,300,regular,500,600,700,800,900);
+@import url('fonts.css');
+@import url('reset.css');
+
+body {
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 20px;
+  color: firebrick;
+  font-weight: 400;
+}
+
+.header,
+.footer {
+  text-align: center;
+  word-spacing: 30px;
+  padding: 30px;
+}
+
+#header-title {
+  color: blue;
+  font-family: 'Jingleberry';
+  margin-bottom: 20px;
+}
+
+[class='header-text'] {
+  color: rgba(137, 43, 226, 0.744);
+  font-family: 'MintsodaLimeGreen';
+}
+
+.footer-text + .marked-text {
+  color: aquamarine;
+}
+
+.footer-text ~ a {
+  color: chartreuse;
+}
+.footer-text,
+.footer-link {
+  margin-bottom: 10px;
+}
+
+.sleep-section,
+.living-room-section {
+  margin: 40px auto;
+  width: 100%;
+  max-width: 960px;
+  min-height: auto;
+  color: #2b2929;
+}
+
+.living-room-section {
+  max-width: 1070px;
+}
+
+.sleep-title,
+.living-room-title {
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.2; /* 48/40 */
+  margin-bottom: 30px;
+}
+
+.sleep-text,
+.living-room-text,
+.living-room-list {
+  font-size: 16px;
+  line-height: 1.875; /* 30/16 */
+  margin-bottom: 10px;
+}
+
+.living-room-title {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.living-room-list-title {
+  margin-bottom: 30px;
+  line-height: 1.4; /* 28/20 */
+}
+
+.living-room-list,
+.living-room-pict,
+.living-room-block {
+  margin-bottom: 40px;
+}
+
+.living-room-item {
+  list-style: circle inside;
+  margin-bottom: 20px;
+  max-width: 1020px;
+}
+
+.krovato-section {
+  max-width: 1290px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 70px;
+  color: #2b2929;
+  text-align: center;
+}
+
+.krovato-title {
+  font-size: 40px;
+  line-height: 1.2; /* 48/40 */
+  margin-bottom: 40px;
+}
+
+.krovato-list {
+  margin-left: -15px;
+  margin-right: -15px;
+  font-size: 0;
+}
+
+.krovato-item {
+  width: 330px;
+  min-height: 484px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+.icon {
+  width: 170px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.icon-title {
+  font-size: 26px;
+  line-height: 1.30769231; /* 34/26 */
+  margin-bottom: 20px;
+}
+
+.icon-text {
+  font-size: 16px;
+  line-height: 1.875; /* 30/16 */
+}
+
+.instagram-section {
+  max-width: 1320px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 70px 0;
+  margin-bottom: 70px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: rgba(30, 40, 50, 0.05);
+}
+
+.instagram-title {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.instagram-list {
+  margin-left: -12px;
+  margin-right: -12px;
+  font-size: 0;
+}
+
+.instagram-item {
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+  vertical-align: top;
+}
