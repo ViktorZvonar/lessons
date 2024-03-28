@@ -69,7 +69,6 @@ body {
 }
 
 .living-room-title {
-  text-align: left;
   margin-bottom: 40px;
 }
 
@@ -137,7 +136,6 @@ body {
 }
 
 .instagram-section {
-  max-width: 1320px;
   margin: 0 auto;
   overflow: hidden;
   padding: 70px 0;
@@ -146,6 +144,11 @@ body {
   text-align: center;
   background-color: rgba(30, 40, 50, 0.05);
   margin-bottom: 70px;
+}
+
+.instagram-section .container {
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .instagram-title {
@@ -169,10 +172,14 @@ body {
 
 .collection-section {
   background-color: rgba(30, 40, 50, 0.05);
-  padding: 73px 300px;
+  padding: 73px 0;
   margin: 0 auto 30px;
-  width: 1920px;
   font-size: 0;
+}
+
+.collection-section .container {
+  max-width: 64%;
+  margin: 0 auto;
 }
 
 .collection-title {
@@ -187,7 +194,6 @@ body {
 .collection-text {
   color: #000;
   font-size: 30px;
-  text-align: left;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.83333333; /* 55/30 */
@@ -196,9 +202,10 @@ body {
 }
 
 .collection-button {
-  background: url(../img/icons/v6-icon.svg) 13% center / 24px no-repeat;
+  background: url(../img/icons/v6-icon.svg) 0.8em center / 24px no-repeat;
   padding: 19px 26px;
-  width: 223px;
+  display: block;
+  max-width: fit-content;
   background-color: #1e2832;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   color: #fff;
@@ -209,18 +216,21 @@ body {
   text-align: end;
 }
 
+.collection-button span {
+  padding-left: 1em;
+}
+
 .collection-block {
   display: inline-block;
   vertical-align: middle;
   width: 682px;
-  text-align: left;
 }
 
 .collection-block.image-block {
   margin-left: 98px;
   border: 2px solid rgba(0, 0, 0, 0.25);
   border-radius: 160px 0 160px 0;
-  width: 424px;
+  max-width: 424px;
 }
 
 .collection-image {
@@ -233,24 +243,26 @@ body {
 .education-section {
   padding: 0 80px;
   margin: 0 auto;
-  width: 1440px;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
-  background-image: url('../img/bgr.png');
+  background: url('../img/bgr.png') 0 0 / cover no-repeat black;
   font-size: 0;
+}
+
+.education-section .container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .education-block {
   padding: 121px 0;
-  text-align: left;
-  width: 600px;
+  max-width: 600px;
   display: inline-block;
   vertical-align: middle;
 }
 
 .education-title {
   font-size: 40px;
-  text-align: left;
   font-weight: 700;
   line-height: 1.2; /* 48/40 */
   margin-bottom: 24px;
@@ -258,7 +270,6 @@ body {
 
 .education-text {
   font-size: 20px;
-  text-align: left;
   font-weight: 500;
   line-height: 1.6; /* 32/20 */
   margin-bottom: 24px;
@@ -266,6 +277,8 @@ body {
 
 .education-button {
   text-align: center;
+  display: block;
+  max-width: fit-content;
   padding: 12px 20px;
   border-radius: 8px 8px 8px 8px;
   background-color: #fff;
@@ -279,6 +292,6 @@ body {
 
 .education-block.image-block {
   margin-left: 133px;
-  width: 547px;
+  max-width: 547px;
   padding: 0;
 }
