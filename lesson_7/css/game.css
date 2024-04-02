@@ -1,0 +1,165 @@
+.game {
+  margin: 0 auto;
+  max-width: 700px;
+  min-height: 100vh;
+  font-size: 0;
+}
+
+.text,
+.bingo,
+.wish,
+.congrats,
+.game-title {
+  color: azure;
+  font-size: 20px;
+  text-align: center;
+}
+
+.game-title {
+  font-size: 30px;
+  background-color: green;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.line_color {
+  background-color: darkblue;
+  border-radius: 15px;
+}
+.game__line-1 {
+  width: 100px;
+  height: 100px;
+  padding: 40px 0;
+  border-radius: 50%;
+}
+
+.game__line-2 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  visibility: hidden;
+}
+
+.game__line-1:hover + .game__line-2,
+.game__line-2:hover {
+  visibility: visible;
+}
+
+.wish,
+.congrats {
+  display: none;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: green;
+}
+
+.game__line-1:hover ~ .wish {
+  display: block;
+}
+
+.wish {
+  margin-top: -150px;
+}
+
+.game__line-3 {
+  width: 600px;
+  height: 100px;
+  visibility: hidden;
+  display: inline-block;
+}
+
+.game__line-2:hover + .game__line-3,
+.game__line-3:hover {
+  visibility: visible;
+}
+
+.game__line-4 {
+  visibility: hidden;
+  height: 300px;
+  width: 100px;
+  margin-left: 600px;
+}
+
+.game__line-3:hover + .game__line-4,
+.game__line-4:hover {
+  visibility: visible;
+  display: inline-block;
+}
+
+.game__line-5 {
+  visibility: hidden;
+  height: 100px;
+  width: 100px;
+  margin-left: 500px;
+  margin-top: -100px;
+}
+
+.game__line-4:hover + .game__line-5,
+.game__line-5:hover {
+  visibility: visible;
+
+  display: inline-block;
+}
+
+.game__line-6 {
+  visibility: hidden;
+  height: 100px;
+  width: 100px;
+  margin-left: 500px;
+}
+
+.game__line-5:hover + .game__line-6,
+.game__line-6:hover {
+  visibility: visible;
+}
+
+.game__line-7 {
+  visibility: hidden;
+  height: 100px;
+  width: 100px;
+  margin-left: 400px;
+  margin-top: -100px;
+}
+
+.game__line-6:hover + .game__line-7,
+.game__line-7:hover {
+  visibility: visible;
+}
+
+.game__line-8 {
+  visibility: hidden;
+  height: 100px;
+  width: 200px;
+  margin-left: 300px;
+  margin-top: -200px;
+}
+
+.game__line-7:hover + .game__line-8,
+.game__line-8:hover {
+  visibility: visible;
+}
+
+.game__line-9 {
+  visibility: hidden;
+  height: 100px;
+  width: 100px;
+  margin-left: 300px;
+  margin-top: -200px;
+}
+
+.game__line-8:hover + .game__line-9,
+.game__line-9:hover {
+  visibility: visible;
+  padding: 40px 20px;
+}
+
+.game__line-9:hover ~ .congrats {
+  display: block;
+  margin-top: 10px;
+}
+
+.game__line-9:hover ~ .congrats {
+  display: block;
+  margin-top: 10px;
+}
