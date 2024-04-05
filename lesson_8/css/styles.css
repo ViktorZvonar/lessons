@@ -88,7 +88,7 @@ body {
 .general-pay-icons,
 .local-pay-icons,
 .service-icons,
-.icon {
+.single-icon {
   display: inline-block;
   vertical-align: top;
   padding-left: 20px;
@@ -97,7 +97,7 @@ body {
 }
 
 .service-icons,
-.icon {
+.single-icon {
   vertical-align: middle;
 }
 
@@ -183,11 +183,11 @@ section *::before {
   content: '';
 }
 
-.icon {
+.single-icon {
   vertical-align: middle;
 }
 
-.icon::before {
+.single-icon::before {
   background: url('../img/icons/question.svg') no-repeat center center;
   content: '';
   width: 40px;
