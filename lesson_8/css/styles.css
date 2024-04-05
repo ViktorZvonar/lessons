@@ -49,6 +49,8 @@ body {
 
 .raster-img-box {
   font-size: 0;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .raster-img-box img {
@@ -64,7 +66,6 @@ body {
 .raster {
   margin: 0 auto;
   margin-bottom: 50px;
-  max-width: 60%;
 }
 
 .container {
