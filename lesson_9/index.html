@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- prettier-ignore -->
+    <meta charset="UTF-8">
+    <!-- prettier-ignore -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lesson 9 of the Best Course</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <h1 class="header-wrapper__title">Моя пречудова верстка</h1>
+        <p class="header-wrapper__text">У накращому у всесвіті курсі</p>
+      </div>
+    </header>
+    <main class="main-page">
+      <section class="categories">
+        <h2 class="categories__title">Популярні категорії</h2>
+        <ul class="categories__list">
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Ліжка</span>
+            </a>
+            <span class="item__count">54</span>
+            <img src="img/categories/sofa.jpg" alt="sofa" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Матраци</span>
+            </a>
+            <span class="item__count">30</span>
+            <img src="img/categories/matrases.jpg" alt="matrase" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">М'які меблі</span>
+            </a>
+            <span class="item__name"></span>
+            <span class="item__count">196</span>
+            <img src="img/categories/soft.jpg" alt="soft furniture" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Шафи</span>
+            </a>
+            <span class="item__name"></span>
+            <span class="item__count">79</span>
+            <img src="img/categories/wardrobe.jpg" alt="wardrobe" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Комоди</span>
+            </a>
+            <span class="item__name"></span>
+            <span class="item__count">54</span>
+            <img src="img/categories/commode.jpg" alt="commode" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Тумби</span>
+            </a>
+            <span class="item__count">64</span>
+            <img
+              src="img/categories/desk-cupboard.jpg"
+              alt="desk cupboard"
+              class="item__image"
+            />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Столи</span>
+            </a>
+            <span class="item__count">35</span>
+            <img src="img/categories/table.jpg" alt="table" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Стільці</span>
+            </a>
+            <span class="item__count">89</span>
+            <img src="img/categories/chair.jpg" alt="chair" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Меблеві стіни</span>
+            </a>
+            <span class="item__count">24</span>
+            <img src="img/categories/walls.jpg" alt="furniture wall" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+          <li class="categories__list-item item">
+            <a href="#" class="item__link link-item">
+              <span class="link-item__name">Кухні</span>
+            </a>
+            <span class="item__count">30</span>
+            <img src="img/categories/kitchen.jpg" alt="kitchen" class="item__image" />
+            <a href="#" class="next">
+              <img
+                src="img/icons/arrow.svg"
+                alt="arrow icon"
+                class="next__icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="products">
+        <h2 class="products__title">Найпопулярніші товари</h2>
+        <ul class="products__list list-products">
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/sparta.jpg"
+                alt="sparta bed"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Ліжко Спарта / Sparta з підйомним механізмом</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                      <p class="item__price item__price--old">25 400 грн</p>
+              <p class="item__price item__price--new">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#" class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>
+            </div>
+          </li>
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/argon.jpg"
+                alt="argon bed"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Ліжко Аргон з підйомним механізмом</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                     
+              <p class="item__price">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#" class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>
+            </div>
+          </li>
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/prestige.jpg"
+                alt="prestige bed"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Ліжко Престиж з підйомним механізмом</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                     
+              <p class="item__price">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#" class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>
+            </div>
+          </li>
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/tokio-2.jpg"
+                alt="tokio-2 sofa"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Диван Токіо-2</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                     
+              <p class="item__price">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#" class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>
+            </div>
+          </li>
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/largo.jpg"
+                alt="largo slim matrase"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Матрац Largo SLIM / Ларго Слім</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                      <p class="item__price item__price--old">25 400 грн</p>
+              <p class="item__price item__price--new">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#" class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>
+            </div>
+          </li>
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/argentum.jpg"
+                alt="argentum matrase"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Матрац ARGENTUM AMALTEA / Аргентум Амалті</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                      <p class="item__price item__price--old">25 400 грн</p>
+              <p class="item__price item__price--new">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#" class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>
+            </div>
+          </li>
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/bravo.jpg"
+                alt="bravo sofa"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Диван Браво</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                     
+              <p class="item__price">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#" class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>      
+            </div>
+          </li>
+          <li class="list-products__item item">
+            <a href="#" class="item__link link"
+              ><img
+                src="img/products/mk-5.jpg"
+                alt="mk-5 bed"
+                class="link__image"
+            /></a>
+            <span class="item__size">Розмір: 61 x 184 x 2130 мм</span>
+            <h3 class="item__name">Ліжко МК-5</h3>
+            <div class="check">
+              <img
+                src="img/icons/check.svg"
+                alt="check icon"
+                class="check__icon"
+              />
+              <span class="check__text">В наявності</span>
+            </div>
+                     
+              <p class="item__price">15 400 грн</p>             
+                      <div class="actions">
+              <a href="#"  class="actions__wish wish">
+                <img
+                  src="img/icons/wish.svg"
+                  alt="wish icon"
+                  class="wish__icon"
+                />
+              </a>
+              <a href="#" class="actions__delete delete">
+                <img
+                  src="img/icons/delete.svg"
+                  alt="delete icon"
+                  class="delete__icon"
+                />
+              </a>      
+            </div>
+          </li>          
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">If you feel like chatting</p>
+      <span class="footer__text footer__text--marked">reach out</span>
+      <a class="footer__link" href="mailto:catering@eduqlebork.pl">
+        viktorzvonar@yahoo.com
+      </a>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <!-- prettier-ignore -->
+          <img
+            style="border: 0; width: 88px; height: 31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!"
+          >
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
