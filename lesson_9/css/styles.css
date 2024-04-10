@@ -16,17 +16,17 @@ body {
   padding: 30px;
 }
 
-.header-wrapper {
+.wrapper {
   margin-bottom: 30px;
 }
 
-.header-wrapper__title {
+.wrapper__title {
   color: blue;
   font-family: 'Jingleberry';
   margin-bottom: 20px;
 }
 
-[class='header-wrapper__text'] {
+[class='wrapper__text'] {
   color: rgba(137, 43, 226, 0.744);
   font-family: 'MintsodaLimeGreen';
 }
