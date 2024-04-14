@@ -1,0 +1,147 @@
+.catalog {
+  padding: 50px;
+}
+
+.catalog__block {
+  position: relative;
+  max-width: 310px;
+}
+
+.catalog__button {
+  padding: 11px 20px;
+  min-width: 145px;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #ffbc57;
+  color: #fff;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.catalog__button::before {
+  content: '';
+  background: url('../img/icons/close.svg') center no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.menu-container,
+.submenu-container {
+  opacity: 0;
+  position: absolute;
+  background-color: #fff;
+  min-width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  left: 0;
+  top: 100%;
+  border-right: 5px solid #ffbc57;
+}
+
+.menu-container__item,
+.submenu-container__item {
+  position: relative;
+  padding: 10px 15px;
+  color: #2b2929;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.menu-container__item:hover {
+  background-color: #ffbc57;
+}
+
+.menu-container__item::after {
+  content: '';
+  position: absolute;
+  top: 25%;
+  right: 18px;
+  width: 24px;
+  height: 24px;
+  background: url(../img/icons/arrow-item.svg) center no-repeat;
+}
+
+.menu-container__item:hover::after {
+  background: url(../img/icons/arrow-item-hover.svg) center no-repeat;
+}
+
+.menu-container__link {
+  vertical-align: middle;
+}
+
+.menu-container__item::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.beds::before {
+  background: url('../img/icons/beds.svg') center no-repeat;
+}
+
+.mattresses::before {
+  background: url('../img/icons/matrasses.svg') center no-repeat;
+}
+
+.soft::before {
+  background: url('../img/icons/soft.svg') center no-repeat;
+}
+
+.wardrobes::before {
+  background: url('../img/icons/wardrobes.svg') center no-repeat;
+}
+
+.commodes::before {
+  background: url('../img/icons/commode.svg') center no-repeat;
+}
+
+.thumbs::before {
+  background: url('../img/icons/thumbs.svg') center no-repeat;
+}
+
+.tables::before {
+  background: url('../img/icons/table.svg') center no-repeat;
+}
+
+.chairs::before {
+  background: url('../img/icons/chairs.svg') center no-repeat;
+}
+
+.walls::before {
+  background: url('../img/icons/walls.svg') center no-repeat;
+}
+
+.kitchens::before {
+  background: url('../img/icons/kit.svg') center no-repeat;
+}
+
+.submenu-container {
+  padding: 12px 0;
+  min-width: fit-content;
+  white-space: nowrap;
+  left: 101%;
+  top: -123%;
+  border: none;
+}
+
+.submenu-container__item {
+  font-size: 19px;
+  line-height: 40px;
+  padding: 10px 30px;
+}
+
+#main-menu:target {
+  opacity: 1;
+}
+
+.menu-container__item:hover .submenu-container {
+  opacity: 1;
+}
+
+.submenu-container__item:hover {
+  font-weight: bold;
+}
